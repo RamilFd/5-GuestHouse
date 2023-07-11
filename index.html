@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest House</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="body">
+    <!-- Навигация -->
+        
+    <nav class="menu">
+        <div class="container">
+            <div class="menu__burger menu__burger--active">
+                <span></span> 
+            </div>
+                
+            <div class="menu__inner menu__inner--active">
+                
+                <div class="menu-logo">
+                    <img class="menu-logo-img" src="./images/nav-logo.svg" alt="logo guest house" >
+                </div>
+
+                <ul class="menu__list">
+                    <li class="menu__list-item"><a class="menu__list-link" href="#">Start</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">Contact</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">Our history</a></li>
+                    </ul>
+
+                <button class="btn btn-menu" id="order" type="button">Book now</button>                     
+            </div>
+        </div>        
+    </nav>
+
+        <!-- Шапка сайта  -->
+    <header class="header">    
+        <div class="header__body">
+            
+            <div class="container">
+
+                <div class="header__content">
+                    <div class="header__content-logo">
+                        <img src="./images/header-logo.svg" alt="logo guest house">
+                    </div>
+
+                    <h1 class="header__content-title">
+                        Experience the perfect combination of modern housing & natural scenery.
+                    </h1>
+
+                    <p class="header__content-text">Located in Lofoten, norway</p>
+                    
+                    <div class="header__content-mouse">
+                        <img src="./images/header-mouse.png" alt="mouse">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="header__body-img" style="background-image: url(./images/header-image.jpg);"></div>
+
+        </div>  
+
+    </header>
+
+    <main>
+        <!-- Информационный блок -->
+        <section class="info">
+            <div class="container">
+                <div class="line-center">
+                    <img src="./images/line.jpg" alt="orange line">
+                </div>
+                <div class="info-content">
+
+                    <div class="info-content__text">
+                        <p>The Guest House is the perfect weekend get-away housing. Located in the Norwegian archipelago, Lofoten, 
+                        it's a great escape from the hustle and bustle of the city. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, 
+                        condimentum dapibus congue et, vulputate ut ligula.</p>
+                    </div>
+
+                    <div class="info-content__text">
+                        <p>Below you'll find information about the accommodation and what's included in the price. Don't hesitate to reach 
+                            out to us vi the contact page if you have any questions around your stay.</p>
+                        <div class="info-btn">
+                        <button class="btn" id="order" type="button">Book now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Текстовый баннер -->
+        <section class="article">
+            <div class="container">
+                <div class="line-center">
+                    <img src="./images/line.jpg" alt="orange line">
+                </div>
+                <h2 class="article-content">The Guest House is the perfect weekend getaway cabin.</h2>
+            </div>
+        </section>
+
+        <!-- Фоновая картинка интерьера -->
+        <section class="interior" style="background-image: url(./images/interior.jpg);"></section>
+        
+        <!-- Условия для сна -->
+        <section class="arangements">
+            <div class="container">
+                <div class="line-center">
+                    <img src="./images/line.jpg" alt="orange line">
+                </div>
+                <div class="arangements-inner">
+                    <h2 class="arangements-title">
+                        Sleeping arrangements.
+                    </h2>
+                    <p class="arangements-inner__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur.
+                    </p>
+                    <div class="arangements-row">
+                        <div class="arangements-row__item">
+                            <img class="arangements-row__img" src="./images/beds.svg" alt="beds">
+                            <p class="arangements-row__title">Beds</p>
+                            <p class="arangements-row__text">
+                            The cabin is equipped with 12 beds, 4 of which are in bunk. The rent includes linens for all beds.
+                            </p>
+                        </div>
+                        
+                        <div class="arangements-row__item">
+                            <img class="arangements-row__img" src="./images/bedrooms.svg" alt="bedrooms">
+                            <p class="arangements-row__title">Bedrooms</p>
+                            <p class="arangements-row__text">
+                            Spread out over two floors, the cabin offers 4 bedrooms. Ranging from 2 to 4 beds per room.
+                            </p>
+                        </div>
+                        
+                        <div class="arangements-row__item">
+                            <img class="arangements-row__img" src="./images/bathrooms.svg" alt="bathrooms">
+                            <p class="arangements-row__title">Bathrooms</p>
+                            <p class="arangements-row__text">
+                            The cabin has three bathrooms, all equipped with showers and one with a bath tub.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Преимущества -->
+        <section class="benefits">
+            <div class="container">
+                <div class="line">
+                    <img src="./images/line.jpg" alt="orange line">
+                </div>
+                <div class="benefits-inner">
+                    <h2 class="benefits-title">
+                        The perfect escape.
+                    </h2>
+                    <p class="benefits-inner__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur.
+                    </p>
+                </div>
+                <div class="benefits-row">
+                    <div class="benefits-row__block">
+                        <div class="benefits-row__block-inner">
+                            <div class="benefits-row__block-img">
+                                <img src="./images/benefits-1.svg" alt="benefits-1">
+                            </div>
+                            <div class="benefits-row__block-text">
+                                Modern Kitchen Appliances <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </div>
+                        </div>
+
+                        <div class="benefits-row__block-inner">
+                            <div class="benefits-row__block-img">
+                                <img src="./images/benefits-2.svg" alt="benefits-2">
+                            </div>
+                            <div class="benefits-row__block-text">
+                                Outdoor Paths <br>
+                                Nulla rhoncus feugiat eros quis consectetur.
+                            </div>
+                        </div>
+
+                        <div class="benefits-row__block-inner">
+                            <div class="benefits-row__block-img">
+                                <img src="./images/benefits-3.svg" alt="benefits-3">
+                            </div>
+                            <div class="benefits-row__block-text">
+                                Coffee Maker <br>
+                                Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. 
+                                
+                            </div>
+                        </div>
+
+                        <div class="benefits-row__block-inner">
+                            <div class="benefits-row__block-img">
+                                <img src="./images/benefits-4.svg" alt="benefits-4">
+                            </div>
+                            <div class="benefits-row__block-text">
+                                Natural Scenery <br>
+                                Cras commodo consequat orci, in convallis risus egestas non.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="benefits-row__block">
+                        <div class="benefits-row__block-inner">
+                            <div class="benefits-row__block-img">
+                                <img src="./images/benefits-5.svg" alt="benefits-5">
+                            </div>
+                            <div class="benefits-row__block-text">
+                                Air Conditioner <br>
+                                Nullam scelerisque aliquam odio et faucibus.
+                            </div>
+                        </div>
+
+                        <div class="benefits-row__block-inner">
+                            <div class="benefits-row__block-img">
+                                <img src="./images/benefits-6.svg" alt="benefits-6">
+                            </div>
+                            <div class="benefits-row__block-text">
+                                Storage Solutions <br>
+                                Morbi neque ex, condimentum dapibus congue et.
+                            </div>
+                        </div>
+
+                        <div class="benefits-row__block-inner">
+                            <div class="benefits-row__block-img">
+                                <img src="./images/benefits-7.svg" alt="benefits-7">
+                            </div>
+                            <div class="benefits-row__block-text">
+                                Cutlery Selection <br>
+                                Duis tristique sed lorem a vestibulum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </div>
+                        </div> 
+                        <div class="benefits-row__block-inner">
+                            <div class="benefits-row__block-img">
+                                <img src="./images/benefits-8.svg" alt="benefits-8">
+                            </div>
+                            <div class="benefits-row__block-text">
+                                Take-away Options <br>
+                                Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Отзывы слайдер -->
+        <section class="reviews">
+            <div class="container">
+                <div class="line-center">
+                    <img src="./images/line.jpg" alt="orange line">
+                </div>
+                <div class="reviews-inner">
+                    <h2 class="reviews-title">
+                        Past guests.
+                    </h2>
+                    <p class="reviews-inner__text">
+                        Don't take our word for it! Have a look at what our previous guests say about their stay at the Guest House.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="slider">
+                <div class="container__right">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__img"><img src="./images/stars1.svg" alt="5stars"></div>
+                                <div class="swiper-slide__title">
+                                    We had an amazing stay at the Guest House!
+                                </div>
+                                <div class="swiper-slide__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+                                    eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus 
+                                    id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                                </div>
+                                <div class="swiper-slide__name">
+                                    Nate Davidsson
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__img"><img src="./images/stars2.svg" alt="4stars"></div>
+                                <div class="swiper-slide__title">
+                                    Beautiful little hideaway.
+                                </div>
+                                <div class="swiper-slide__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+                                    eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus 
+                                    id rutrum lorem imperdiet.
+                                </div>
+                                <div class="swiper-slide__name">
+                                    Laura Paulie
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__img"><img src="./images/stars1.svg" alt="5stars"></div>
+                                <div class="swiper-slide__title">
+                                    The best beautiful Guest House!
+                                </div>
+                                <div class="swiper-slide__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Suspendisse varius enim in eros elementum tristique.
+                                </div>
+                                <div class="swiper-slide__name">
+                                    Greg Thomas
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__img"><img src="./images/stars2.svg" alt="4stars"></div>
+                                <div class="swiper-slide__title">
+                                    I've never seen anything like it before!
+                                </div>
+                                <div class="swiper-slide__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+                                    eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus 
+                                    id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                                </div>
+                                <div class="swiper-slide__name">
+                                    David Statem
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__img"><img src="./images/stars1.svg" alt="5stars"></div>
+                                <div class="swiper-slide__title">
+                                    This is the best weekend of my life
+                                </div>
+                                <div class="swiper-slide__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+                                    eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                                </div>
+                                <div class="swiper-slide__name">
+                                    Bruce Lee
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__img"><img src="./images/stars2.svg" alt="4stars"></div>
+                                <div class="swiper-slide__title">
+                                    The very nice house!
+                                </div>
+                                <div class="swiper-slide__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+                                    eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus.
+                                </div>
+                                <div class="swiper-slide__name">
+                                    Kate Yohanson
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="container-buttons">
+                        <div class="slider-buttons">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </section>
+
+        <!-- Фоновая картинка интерьера -->
+        <section class="interior" style="background-image: url(./images/interior2.jpg);"></section>
+
+        <!-- Выгоды -->
+        <section class="advantages">
+            <div class="container">
+                <div class="advantages-inner">
+                    
+                    <div class="advantages-inner__content">
+                        <div class="line">
+                            <img src="./images/line.jpg" alt="orange line">
+                        </div>
+                            <h2 class="advantages-title">
+                                Come together.
+                            </h2>
+                            <p class="advantages__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.
+                            </p>
+                    </div>
+                
+                    <div class="advantages-inner__block">
+
+                        <div class="advantages-inner__block1">
+                            <div class="advantages-inner__block1-row">
+                                <div class="advantages-inner__block1-img">
+                                    <img src="./images/advanteges1.svg" alt="wi-fi">
+                                </div>
+                                <div class="advantages-inner__block1-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </div>
+                            </div>
+                            <div class="advantages-inner__block1-row">
+                                <div class="advantages-inner__block1-img">
+                                    <img src="./images/advanteges2.svg" alt="hanger">
+                                </div>
+                                <div class="advantages-inner__block1-text">
+                                    Nulla rhoncus feugiat eros quis consectetur.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="advantages-inner__block1">
+                            <div class="advantages-inner__block1-row">
+                                <div class="advantages-inner__block1-img">
+                                    <img src="./images/advanteges3.svg" alt="bread">
+                                </div>
+                                <div class="advantages-inner__block1-text">
+                                    Nullam scelerisque aliquam odio et faucibus.
+                                </div>
+                            </div>
+                            <div class="advantages-inner__block1-row">
+                                <div class="advantages-inner__block1-img">
+                                    <img src="./images/advanteges4.svg" alt="spoon and fork">
+                                </div>
+                                <div class="advantages-inner__block1-text">
+                                    Morbi neque ex, condimentum.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Обратная связь -->
+        <section class="feedback">
+            <div class="container">
+                <div class="feedback-inner">
+                    <div class="line-center">
+                        <img src="./images/line.jpg" alt="orange line">
+                    </div>
+                    <h2 class="feedback-title">
+                        We're already booked up for the spring — hurry up & secure your stay for the summer.
+                    </h2>
+                    <p class="feedback-inner__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.
+                    </p>
+                    <div class="feedback-buttons">
+                        <a class="btn btn-feedback" href="#">Contact</a>
+                        <button class="btn" id="order" type="button">Book now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Модальное окно-->
+        <div class="modal-fade">
+            <div class="modal-window">
+                <div class="model-card">
+                    <div class="model-card__title">
+                        <h6>To book our cozy house, please leave your contact details below, our operator will call you back during the day.</h6>
+                    </div>
+                    <form action="post" class="model-card__input">
+                        <input type="text" name="name" class="model-card__input-input" placeholder="Your name...">
+                        <input type="tel" name="phone" class="model-card__input-input" placeholder="+47 (0) 702 88 12 34">
+                        <button type="submit" class="model-card__input-submit">Submit</button>
+                    </form>
+                    <div class="model-card__button">
+                        <button type="button" class="model-card__btn">Close</button>
+                    </div> 
+                                                
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-row__container">
+                    <div class="footer-row__container-info">
+                        <div class="footer-row__container-links">
+                            <p class="footer-row__title">Pages</p>
+                            <ul>
+                                <li class="footer-row__container-link"><a href="#">Contact</a></li>
+                                <li class="footer-row__container-link"><a href="#">Our history</a></li>
+                                <li class="footer-row__container-link"><a href="#">Licenses</a></li>
+                                <li class="footer-row__container-link"><a href="#">Instruction</a></li>
+                                <li class="footer-row__container-link"><a href="#">Style guide</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-row__container-social">
+                            <p class="footer-row__title">Social media</p>
+                            <div class="social-logo">
+                                <div class="social-logo__link"><a href="#"><img src="./images/logo-social-1.svg" alt="social"></a></div>
+                                <div class="social-logo__link"><a href="#"><img src="./images/logo-social-2.svg" alt="facebook"></a></div>
+                                <div class="social-logo__link"><a href="#"><img src="./images/logo-social-3.svg" alt="instagram"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="footer-row__container-input">
+                        <p class="footer-row__title">Newsletter</p>
+                        <p class="footer-row__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                        </p>
+                        <form action="post" class="footer-input">
+                            <input type="email" name="email" placeholder="e-mail" class="footer-input__input">
+                            <button type="submit" class="footer-input__btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copiright">
+                <img src="./images/footer-logo.svg" alt="footer-logo" class="footer-copiright__img">
+                <p class="footer-copiright__text">© Guest House, LLC. All rights reserved. Powered by Webflow.</p>
+                <div class="adress-email">
+                    <address class="adress-email__phone"><a href="tel:+470702881234">+47 (0) 702 88 12 34</a></address>
+                    <div class="adress-email__dash"><img src="./images/footer-dash.png" alt="dash"></div>
+                    <address class="adress-email__email"><a href="mailto:example@webflow.io?subject=I want to make an order">example@webflow.io</a></address>
+                    <div class="adress-email__dash"><img src="./images/footer-dash.png" alt="dash"></div>
+                    <address class="adress-email__address">Klubbvika 12, 8310 Kabelvag, Norway</address>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
